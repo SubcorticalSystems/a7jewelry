@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Aurora Zhang</title>
+
+<!--stylesheets-->
+    <link rel="stylesheet" type="text/css" href="./public/landing.css"/>
+    <link rel="stylesheet" type="text/css" href="./public/menu.css" />
+    
+<!--Imported Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--Hamburger Menu without JS only CSS-->
+    <div class="menu-wrap">
+    <input type="checkbox" class="toggler" />
+    <div class="hamburger"><div></div></div>
+    <div class="menu">
+        <div>
+        <div>
+            <ul>
+                <li><a href="portfolio.html" id="portfolio-btn">Projects and Portfolio</a></li>
+                <li><a href="about.html"  id="about-btn">About the Artist</a></li>
+                <li><a href="contact.html"  id="contact-btn">Contact Information</a></li>
+            </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--Landing Page Info-->
+    <header class="showcase">
+        <div>
+        <div class="container showcase-inner">
+        <h1>Welcome</h1>
+        <p>
+            The following is a compendium of artwork created by metalworker and jewelry designer Aurora Zhang. 
+            Click below to explore Aurora's portfolio.
+            <div>
+                <a href="portfolio.html" class="explore-btn" id="explore-btn">Explore</a>
+            </div>
+
+            
+    </div>
+</div>
+    
+</header>
+<!--JS Button Functionality-->
+<script>
+    document.getElementById("explore-btn").onclick = function () {
+        window.location.href = "portfolio.html";
+    }
+    document.getElementById("portfolio-btn").onclick = function () {
+        window.location.href = "portfolio.html";
+    }
+    document.getElementById("contact-btn").onclick = function () {
+        window.location.href = "contact.html";
+    }
+    document.getElementById("about-btn").onclick = function () {
+        window.location.href = "about.html";
+    }
+</script>
+  
+    </body>
+   
+</html>

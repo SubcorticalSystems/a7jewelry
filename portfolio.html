@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Aurora Zhang and Matthew Moir">
+    <meta name="generator" content="Hugo 0.108.0">
+    <title>AZ's Project Showcase</title>
+    
+    <!--Imported Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    
+    <!--CDN for Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this page-->
+    <link href="public/portfolio.css" rel="stylesheet">
+    
+    
+  </head>
+  <body>
+    <!--removed from nav class: bg-dark bg-dark fixed-top-->
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark  ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="/public/images/az_logo.png" height="80px"></a>
+      <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">-->
+        <!--<span class="navbar-toggler-icon"></span>-->
+      <!--</button>-->
+      <!--<div class="collapse navbar-collapse" id="navbarCollapse">-->
+        <!--removed from ul when disabling reactive hamburger menu: mb-2 navbar-nav-->
+        <ul class="navbar-adjust me-auto mb-md-0  ">
+          <li class="nav-item">
+            <a class="nav-link" id="home-btn" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="about-btn" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="contact-btn" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="public/images/showcase_growing_rings.jpg" class="bd-placeholder-img" width="100%" height="130%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
+ 
+      </div>
+      <div class="carousel-item ">
+        <img src="public/images/ring_collection.jpg" class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
+  
+      </div>
+      <div class="carousel-item ">
+        <img src="public/images/showcase_expand.jpg" class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></img>
+     
+      </div>
+    </div>
+
+    <!--toggler arrows on carousel-->
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="public/images/aurora_working.JPG" class="bd-placeholder-img rounded-circle" width="190" height="190" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/></img>
+        <h2 class="fw-normal">Artist's Contact</h2>
+        <p><a class="btn btn-secondary" id="contact-btn-l" href="contact.html">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="public/images/ring_of_cacti.jpg" class="bd-placeholder-img rounded-circle" width="190" height="190" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/></img>
+        <h2 class="fw-normal">Home</h2>
+        <p><a class="btn btn-secondary" id="home-btn-l" href="index.html">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="public/images/aurora_model.jpg" class="bd-placeholder-img rounded-circle" width="190" height="190" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/></img>
+        <h2 class="fw-normal">Artist's Bio</h2>
+        <p><a class="btn btn-secondary" id="about-btn-l" href="about.html">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider featurette-divider-section" id="group-one">
+
+    <div>
+      <h1 class="featurette-starter">Senior Projects 2022-2023</h1>
+    </div>
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">"Growing" ring series, <span class="text-muted">2023</span></h2>
+        <p class="lead">Created from a Conjunction of Glass, Recycled Sterling Silver, Resin, and other Recycled Studio Waste.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="public/images/showcase_growing_rings.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">"Expand" earpiece,  <span class="text-muted">2023</span></h2>
+        <p class="lead">A Combination of Bronze with External Additions Made of Resin.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="public/images/showcase_expand.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">"Deserted" ashtray, <span class="text-muted">2023</span></h2>
+        <p class="lead">Constructed with Copper, Resin, and Recycled Studio Waste.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="public/images/showcase_ash.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">"Cactus Knuckles" handpiece, <span class="text-muted">2023</span></h2>
+        <p class="lead">Comprised of Sterling Silver and Resin.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="public/images/showcase_cactus_knuckles.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">"Venus Flytrap" mouthpiece,  <span class="text-muted">2023</span></h2>
+        <p class="lead">Assembled from Bronze, Fine Silver, Resin, and Medical Grade Nylon.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="public/images/showcase_mouthpiece.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">"The Zone" necklace, <span class="text-muted">2023</span></h2>
+        <p class="lead">Crafted from Glass, Resin, Silver, Somos Watershed11122 Stereolithographic Resin, and Recycled Material.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="public/images/showcase_succulent.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">"Hanging Plant" earrings (Green),  <span class="text-muted">2023</span></h2>
+        <p class="lead">A Display of Glass, Silver, Fine Silver, Resin, and Recycled Material.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="public/images/green_hang.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">"Hanging Plant" earrings (Pink), <span class="text-muted">2023</span></h2>
+        <p class="lead">A Display of Glass, Silver, Fine Silver, Resin, and Recycled Studio Materials.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="public/images/purple_hang.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">"Growing" ring series collection,  <span class="text-muted">2023</span></h2>
+        <p class="lead">Each Fused from Glass, Recycled Sterling Silver, Resin, and Recycled Studio Materials.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="public/images/ring_collection.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">"Growing" individual ring, <span class="text-muted">2023</span></h2>
+        <p class="lead">Made of Glass, Recycled Sterling Silver, Resin, and Recycled Studio Materials.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="public/images/closeup_ring_one.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">"Growing" individual ring,  <span class="text-muted">2023</span></h2>
+        <p class="lead">Made of Glass, Recycled Sterling Silver, Resin, and Recycled Studio Materials.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="public/images/closeup_ring_two.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider featurette-divider-section" id="group-two">
+
+<div>
+  <h1 class="featurette-starter">Junior Projects 2021-2022</h1>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-7 order-md-2">
+    <h2 class="featurette-heading fw-normal lh-1">"Sunrise", <span class="text-muted">2022</span></h2>
+    <p class="lead">Produced from Bronze, Copper, Nickel, Silver, and Garnet</p>
+  </div>
+  <div class="col-md-5 order-md-1">
+    <img src="public/images/showcase_sunrise.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+  </div>
+</div>
+
+<hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">"Lead Element" wrist cuff, <span class="text-muted">2022</span></h2>
+        <p class="lead">A Mixture of Sterling Silver and Blue Cubic Zerconeum.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="public/images/showcase_cuff.JPG" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">"Forseen", <span class="text-muted">2021</span></h2>
+        <p class="lead">Fashioned from Bronze, Garnet, and Silver.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="public/images/showcase_eye.JPG" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">"Floated", <span class="text-muted">2022</span></h2>
+        <p class="lead"> Fused from Resin, Recycled Shower Curtain Rings, Recycled Mica and Art Decoration pieces.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="public/images/showcase_resin.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">"Valkyrie" diadem, <span class="text-muted">2022.</span></h2>
+        <p class="lead">Melded combination of Garnet, Nickel, Bronze, Copper, Faux Feathers.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="public/images/showcase_valkyrie_exhibit.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">"Lily of The Valley" enamel work 2, <span class="text-muted">2022</span></h2>
+        <p class="lead">Delicate Enameling on Fine Silver with UV Resin.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="public/images/showcase_lily.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider featurette-divider-section" id="group-three">
+
+    <div>
+      <h1 href="group-one" class="featurette-starter">Other Notable Works</h1>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">"Unsolved", <span class="text-muted">2016</span></h2>
+        <p class="lead">Simply Bronze and Nickel</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="public/images/showcase_puzzle.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">"Glassy", <span class="text-muted">2017</span></h2>
+        <p class="lead">Mixture of Cold Enamel on Silver with Cubic Zerconeum.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="public/images/showcase_cold_enamel.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">"Lily of The Valley" enamel work 1, <span class="text-muted">2022</span></h2>
+        <p class="lead">Crafted from Enamel on Copper and Sterling Silver.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="public/images/showcase_flower_enamel.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">"Octopus's Treasure Trove", <span class="text-muted">2021</span></h2>
+        <p class="lead">Assembly of Silver, Bronze, and Recycled Artroom Materials</p>
+      </div>
+      <div class="col-md-5">
+        <img src="public/images/showcase_octopus.JPG" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container footer-container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2019–2023 Aurora Zhang &middot; 
+      <a href="contact.html">Contact</a> &middot; 
+      <a href="about.html">About</a></p>
+  </footer>
+</main>
+<!--JS Button Functionality-->
+<script>
+  document.getElementById("contact-btn").onclick = function () {
+        window.location.href = "contact.html";
+    }
+    document.getElementById("about-btn").onclick = function () {
+        window.location.href = "about.html";
+    }
+    document.getElementById("home-btn").onclick = function () {
+        window.location.href = "index.html";
+    } 
+    document.getElementById("contact-btn-l").onclick = function () {
+        window.location.href = "contact.html";
+    }
+    document.getElementById("about-btn-l").onclick = function () {
+        window.location.href = "about.html";
+    }
+    document.getElementById("home-btn-l").onclick = function () {
+        window.location.href = "index.html";
+    } 
+</script>
+<!--CDN for Bootstrap JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+      
+  </body>
+</html>

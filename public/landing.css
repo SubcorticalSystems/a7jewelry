@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  overflow: hidden;
+  background-color: var(--overlay-color);
+}
+
+:root {
+  --primary-color: rgba(104, 82, 226, 0.5);
+  --overlay-color: rgba(105, 82, 187, 0.664);
+  --button-color: rgba(104, 68, 190, 0.4);
+  --menu-speed: 0.70s;
+  /*
+  --custom-font: "Inria Serif", serif;
+
+  */
+  --custom-font:  'Quicksand', sans-serif;
+}
+
+/*main*/
+body {
+  font-family: var(--custom-font);
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 850px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 3rem;
+}
+
+.showcase {
+  background-color: var(--primary-color);
+  color: #E8E2E2;
+  height: 100vh;
+  position: relative;
+}
+
+.showcase::before {
+  content: "";
+  background: url(images/landingBackground.jpg) no-repeat center
+    center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.showcase .showcase-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 30rem;
+}
+
+.showcase h1 {
+  font-size: 3.2rem;
+  
+}
+
+.showcase p {
+  font-size: 1.3rem;
+}
+.explore-btn {
+  font-size: 1.4rem;
+  display: inline-flex;
+  border: none;
+  border-radius: 1.3rem;
+  margin: 0.8rem;
+  padding: 0.4rem 1.2rem;
+  background-color: var(--button-color);
+  color: #E8E2E2;
+  text-decoration: none;
+  transition: opacity 0.3s ease-in-out;
+  
+}
+
+.explore-btn:hover {
+  opacity: 0.85;
+  
+}
+
+/*Responsive CSS*/
+@media (min-width: 390px) {
+  .showcase h1 p {
+    margin-bottom: 1.25rem;
+    font-size: .25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
