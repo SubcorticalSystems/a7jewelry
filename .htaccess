@@ -1,0 +1,15 @@
+# mod_rewrite begins
+
+RewriteEngine on 
+
+# does not apply if a folder has the same name as file 
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# ignore if file in directory does not have .html extenstion
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+# modifies pages with .html extenstion
+
+RewriteRule ^(.*)$ $1.html [NC,L] 
