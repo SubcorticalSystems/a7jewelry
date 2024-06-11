@@ -5,14 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | Aurora Zhang</title>
-<link rel="icon" href="public/images/az_logo.png">
-<!--stylesheets-->
+    <!--Favicon-->
+    <link rel="icon" href="public/images/az_favicon.png">
+    <!--stylesheets-->
     <link rel="stylesheet" type="text/css" href="./public/landing.css"/>
     <link rel="stylesheet" type="text/css" href="./public/menu.css" />
-    
-<!--Imported Font-->
+    <!--Imported Font-->
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-
 </head>
 <body>
     <!--Hamburger Menu without JS only CSS-->
@@ -23,9 +22,9 @@
         <div>
         <div>
             <ul>
-                <li><a href="portfolio.html" id="portfolio-btn">Projects and Portfolio</a></li>
+                <li><a href="portfolio" id="portfolio-btn">Projects and Portfolio</a></li>
                 <li><a href="about"  id="about-btn">About the Artist</a></li>
-                <li><a href="contact.html"  id="contact-btn">Contact Information</a></li>
+                <li><a href="contact"  id="contact-btn">Contact Information</a></li>
             </ul>
             </div>
         </div>
@@ -40,7 +39,7 @@
             The following is a compendium of artwork created by metalworker and jewelry designer Aurora Zhang. 
             Click below to explore Aurora's portfolio.
             <div>
-                <a href="portfolio.html" class="explore-btn" id="explore-btn">Explore</a>
+                <a href="portfolio" class="explore-btn" id="explore-btn">Explore</a>
             </div>
 
             
@@ -51,13 +50,13 @@
 <!--JS Button Functionality-->
 <script>
     document.getElementById("explore-btn").onclick = function () {
-        window.location.href = "portfolio.html";
+        window.location.href = "portfolio";
     }
     document.getElementById("portfolio-btn").onclick = function () {
-        window.location.href = "portfolio.html";
+        window.location.href = "portfolio";
     }
     document.getElementById("contact-btn").onclick = function () {
-        window.location.href = "contact.html";
+        window.location.href = "contact";
     }
     document.getElementById("about-btn").onclick = function () {
         window.location.href = "about";
